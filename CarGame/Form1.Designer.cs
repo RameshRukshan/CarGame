@@ -250,9 +250,9 @@ namespace CarGame
             // 
             this.player.BackColor = System.Drawing.Color.Transparent;
             this.player.Image = ((System.Drawing.Image)(resources.GetObject("player.Image")));
-            this.player.Location = new System.Drawing.Point(306, 386);
+            this.player.Location = new System.Drawing.Point(270, 464);
             this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(121, 226);
+            this.player.Size = new System.Drawing.Size(85, 160);
             this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.player.TabIndex = 1;
             this.player.TabStop = false;
@@ -262,9 +262,9 @@ namespace CarGame
             // 
             this.enemyThree.BackColor = System.Drawing.Color.Transparent;
             this.enemyThree.Image = ((System.Drawing.Image)(resources.GetObject("enemyThree.Image")));
-            this.enemyThree.Location = new System.Drawing.Point(555, 129);
+            this.enemyThree.Location = new System.Drawing.Point(591, 206);
             this.enemyThree.Name = "enemyThree";
-            this.enemyThree.Size = new System.Drawing.Size(121, 226);
+            this.enemyThree.Size = new System.Drawing.Size(85, 160);
             this.enemyThree.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.enemyThree.TabIndex = 1;
             this.enemyThree.TabStop = false;
@@ -274,9 +274,9 @@ namespace CarGame
             // 
             this.enemyTwo.BackColor = System.Drawing.Color.Transparent;
             this.enemyTwo.Image = ((System.Drawing.Image)(resources.GetObject("enemyTwo.Image")));
-            this.enemyTwo.Location = new System.Drawing.Point(306, 12);
+            this.enemyTwo.Location = new System.Drawing.Point(322, 12);
             this.enemyTwo.Name = "enemyTwo";
-            this.enemyTwo.Size = new System.Drawing.Size(121, 226);
+            this.enemyTwo.Size = new System.Drawing.Size(85, 160);
             this.enemyTwo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.enemyTwo.TabIndex = 1;
             this.enemyTwo.TabStop = false;
@@ -286,9 +286,9 @@ namespace CarGame
             // 
             this.enemyOne.BackColor = System.Drawing.Color.Transparent;
             this.enemyOne.Image = ((System.Drawing.Image)(resources.GetObject("enemyOne.Image")));
-            this.enemyOne.Location = new System.Drawing.Point(86, 230);
+            this.enemyOne.Location = new System.Drawing.Point(76, 289);
             this.enemyOne.Name = "enemyOne";
-            this.enemyOne.Size = new System.Drawing.Size(121, 226);
+            this.enemyOne.Size = new System.Drawing.Size(85, 160);
             this.enemyOne.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.enemyOne.TabIndex = 1;
             this.enemyOne.TabStop = false;

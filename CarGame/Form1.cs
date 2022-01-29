@@ -20,6 +20,46 @@ namespace CarGame
         private void timer1_Tick(object sender, EventArgs e)
         {
             moveRoad(gameSpeed);
+            enemyFowerd(gameSpeed);
+        }
+
+        Random rand = new Random();
+        int x;
+
+        void enemyFowerd(int speed)
+        {
+            if (enemyOne.Top >= 700)
+            {
+                x = rand.Next(0, 250);
+                enemyOne.Location = new Point(x,0);
+            }
+            else
+            {
+                enemyOne.Top += speed;
+            }
+
+            if (enemyTwo.Top >= 700)
+            {
+                if(rand.Next(0,5) == 2)
+                {
+                    x = rand.Next(250, 400);
+                    enemyTwo.Location = new Point(x, 0);
+                }
+            }
+            else
+            {
+                enemyTwo.Top += speed;
+            }
+
+            if (enemyThree.Top >= 700)
+            {
+                x = rand.Next(400, 600);
+                enemyThree.Location = new Point(x, 0);
+            }
+            else
+            {
+                enemyThree.Top += speed;
+            }
         }
 
         public void moveRoad(int speed)
