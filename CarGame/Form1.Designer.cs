@@ -51,9 +51,9 @@ namespace CarGame
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.player = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.enemyThree = new System.Windows.Forms.PictureBox();
+            this.enemyTwo = new System.Windows.Forms.PictureBox();
+            this.enemyOne = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -73,9 +73,9 @@ namespace CarGame
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyThree)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyOne)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -258,41 +258,41 @@ namespace CarGame
             this.player.TabStop = false;
             this.player.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.player_PreviewKeyDown);
             // 
-            // pictureBox19
+            // enemyThree
             // 
-            this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(555, 129);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(121, 226);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 1;
-            this.pictureBox19.TabStop = false;
-            this.pictureBox19.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.player_PreviewKeyDown);
+            this.enemyThree.BackColor = System.Drawing.Color.Transparent;
+            this.enemyThree.Image = ((System.Drawing.Image)(resources.GetObject("enemyThree.Image")));
+            this.enemyThree.Location = new System.Drawing.Point(555, 129);
+            this.enemyThree.Name = "enemyThree";
+            this.enemyThree.Size = new System.Drawing.Size(121, 226);
+            this.enemyThree.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.enemyThree.TabIndex = 1;
+            this.enemyThree.TabStop = false;
+            this.enemyThree.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.player_PreviewKeyDown);
             // 
-            // pictureBox20
+            // enemyTwo
             // 
-            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(306, 12);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(121, 226);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 1;
-            this.pictureBox20.TabStop = false;
-            this.pictureBox20.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.player_PreviewKeyDown);
+            this.enemyTwo.BackColor = System.Drawing.Color.Transparent;
+            this.enemyTwo.Image = ((System.Drawing.Image)(resources.GetObject("enemyTwo.Image")));
+            this.enemyTwo.Location = new System.Drawing.Point(306, 12);
+            this.enemyTwo.Name = "enemyTwo";
+            this.enemyTwo.Size = new System.Drawing.Size(121, 226);
+            this.enemyTwo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.enemyTwo.TabIndex = 1;
+            this.enemyTwo.TabStop = false;
+            this.enemyTwo.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.player_PreviewKeyDown);
             // 
-            // pictureBox24
+            // enemyOne
             // 
-            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(86, 230);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(121, 226);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 1;
-            this.pictureBox24.TabStop = false;
-            this.pictureBox24.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.player_PreviewKeyDown);
+            this.enemyOne.BackColor = System.Drawing.Color.Transparent;
+            this.enemyOne.Image = ((System.Drawing.Image)(resources.GetObject("enemyOne.Image")));
+            this.enemyOne.Location = new System.Drawing.Point(86, 230);
+            this.enemyOne.Name = "enemyOne";
+            this.enemyOne.Size = new System.Drawing.Size(121, 226);
+            this.enemyOne.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.enemyOne.TabIndex = 1;
+            this.enemyOne.TabStop = false;
+            this.enemyOne.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.player_PreviewKeyDown);
             // 
             // Form1
             // 
@@ -300,9 +300,9 @@ namespace CarGame
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(88)))), ((int)(((byte)(88)))));
             this.ClientSize = new System.Drawing.Size(759, 636);
-            this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox19);
+            this.Controls.Add(this.enemyOne);
+            this.Controls.Add(this.enemyTwo);
+            this.Controls.Add(this.enemyThree);
             this.Controls.Add(this.player);
             this.Controls.Add(this.pictureBox18);
             this.Controls.Add(this.pictureBox9);
@@ -345,9 +345,9 @@ namespace CarGame
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyThree)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyOne)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -373,9 +373,9 @@ namespace CarGame
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox player;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox enemyThree;
+        private System.Windows.Forms.PictureBox enemyTwo;
+        private System.Windows.Forms.PictureBox enemyOne;
     }
 }
 
