@@ -1,7 +1,7 @@
 ﻿
 namespace CarGame
 {
-    partial class Form1
+    partial class CarGame
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace CarGame
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CarGame));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -294,7 +294,7 @@ namespace CarGame
             this.enemyOne.TabStop = false;
             this.enemyOne.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.player_PreviewKeyDown);
             // 
-            // Form1
+            // CarGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -323,8 +323,8 @@ namespace CarGame
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "CarGame";
+            this.Text = "CarGame";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

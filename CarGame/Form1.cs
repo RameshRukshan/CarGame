@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CarGame
 {
-    public partial class Form1 : Form
+    public partial class CarGame : Form
     {
-        public Form1()
+        public CarGame()
         {
             InitializeComponent();
         }
@@ -20,7 +20,7 @@ namespace CarGame
         private void timer1_Tick(object sender, EventArgs e)
         {
             moveRoad(gameSpeed);
-            enemyFowerd(gameSpeed);
+            enemyFowerd(1+gameSpeed);
         }
 
         Random rand = new Random();
