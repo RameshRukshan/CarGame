@@ -21,10 +21,31 @@ namespace CarGame
         {
             moveRoad(gameSpeed);
             enemyFowerd(1+gameSpeed);
+            playerOut();
         }
 
         Random rand = new Random();
         int x;
+
+        void playerOut()
+        {
+            gameOvercs go = new gameOvercs();
+            if (player.Bounds.IntersectsWith(enemyOne.Bounds))
+            {
+                timer1.Enabled = false;
+                go.ShowDialog();
+            }
+            else if (player.Bounds.IntersectsWith(enemyTwo.Bounds))
+            {
+                timer1.Enabled = false;
+                go.ShowDialog();
+            }
+            else if (player.Bounds.IntersectsWith(enemyThree.Bounds))
+            {
+                timer1.Enabled = false;
+                go.ShowDialog();
+            }
+        }
 
         void enemyFowerd(int speed)
         {
