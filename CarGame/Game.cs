@@ -22,6 +22,7 @@ namespace CarGame
             moveRoad(gameSpeed);
             enemyFowerd(1+gameSpeed);
             playerOut();
+            //spedoMeater.Value = gameSpeed;
         }
 
         Random rand = new Random();
@@ -34,19 +35,19 @@ namespace CarGame
             {
                 timer1.Enabled = false;
                 go.ShowDialog();
-                this.Close();
+                this.Hide();
             }
             else if (player.Bounds.IntersectsWith(enemyTwo.Bounds))
             {
                 timer1.Enabled = false;
                 go.ShowDialog();
-                this.Close();
+                this.Hide();
             }
             else if (player.Bounds.IntersectsWith(enemyThree.Bounds))
             {
                 timer1.Enabled = false;
                 go.ShowDialog();
-                this.Close();
+                this.Hide();
             }
         }
 
