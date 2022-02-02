@@ -31,6 +31,7 @@ namespace CarGame
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(gameOvercs));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_newGame = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,6 +45,17 @@ namespace CarGame
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // btn_newGame
+            // 
+            this.btn_newGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_newGame.Location = new System.Drawing.Point(153, 203);
+            this.btn_newGame.Name = "btn_newGame";
+            this.btn_newGame.Size = new System.Drawing.Size(238, 33);
+            this.btn_newGame.TabIndex = 1;
+            this.btn_newGame.Text = "Start New Game";
+            this.btn_newGame.UseVisualStyleBackColor = true;
+            this.btn_newGame.Click += new System.EventHandler(this.btn_newGame_Click);
+            // 
             // gameOvercs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -51,6 +63,7 @@ namespace CarGame
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(536, 317);
+            this.Controls.Add(this.btn_newGame);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "gameOvercs";
@@ -63,5 +76,6 @@ namespace CarGame
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btn_newGame;
     }
 }

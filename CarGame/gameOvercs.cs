@@ -16,5 +16,10 @@ namespace CarGame
         {
             InitializeComponent();
         }
+
+        private void btn_newGame_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

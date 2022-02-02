@@ -34,16 +34,19 @@ namespace CarGame
             {
                 timer1.Enabled = false;
                 go.ShowDialog();
+                this.Close();
             }
             else if (player.Bounds.IntersectsWith(enemyTwo.Bounds))
             {
                 timer1.Enabled = false;
                 go.ShowDialog();
+                this.Close();
             }
             else if (player.Bounds.IntersectsWith(enemyThree.Bounds))
             {
                 timer1.Enabled = false;
                 go.ShowDialog();
+                this.Close();
             }
         }
 
