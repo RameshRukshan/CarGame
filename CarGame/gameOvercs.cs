@@ -18,7 +18,7 @@ namespace CarGame
         }
 
         private void btn_newGame_Click(object sender, EventArgs e)
-        {
+        { 
             this.Close();
             CarGame gameStart = new CarGame();
             gameStart.Show();
